@@ -1,0 +1,24 @@
+{
+  "name": "tesla-vin-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nate Clark <n8@n8io.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node app",
+    "test": "node -r dotenv/config test",
+    "up:pre": "",
+    "up:post:": ""
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "debug": "^4.1.1",
+    "puppeteer-core": "^3.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "puppeteer": "^3.2.0"
+  }
+}

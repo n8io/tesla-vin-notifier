@@ -1,0 +1,11 @@
+node_modules
+*.log
+
+# Local Netlify folder
+.netlify
+
+.env*
+!.env.example
+.DS_Store
+up.*json
+!up.example.json

@@ -1,0 +1,16 @@
+{
+  "name": "tesla-vin-notifier",
+  "profile": "aws-n8io-dev",
+  "region": "us-east-1",
+  "lambda": {
+    "memory": 1536,
+    "runtime": "nodejs12.x"
+  },
+  "hooks": {
+    "build": "rm -rf node_modules && yarn install --production --frozen-lockfile",
+    "postdeploy": "yarn"
+  },
+  "proxy": {
+    "timeout": 30
+  }
+}

@@ -1,0 +1,5 @@
+*.lock
+*.md
+.env*
+nodemon.json
+test.js
