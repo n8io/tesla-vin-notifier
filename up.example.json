@@ -12,5 +12,11 @@
   },
   "proxy": {
     "timeout": 30
+  },
+  "environment": {
+    "DEBUG": "tesla-vin-notifier*",
+    "PASSWORD": "<your tesla.com password>",
+    "RESERVATION_NUMBER": "<your vehicle reservation number>",
+    "USERNAME": "<your tesla.com username/email>"
   }
 }
