@@ -1,6 +1,6 @@
 {
   "colors": true,
-  "exec": "DEBUG=tesla-notifier* node -r dotenv/config app",
+  "exec": "DEBUG=tesla-vin-notifier* node -r dotenv/config app",
   "ext": "js",
   "ignore": ["**/*.spec.js"],
   "signal": "SIGHUP",
